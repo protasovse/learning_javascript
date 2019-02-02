@@ -5,7 +5,6 @@ var assert = require('assert');
 var lib = require('./index.js');
 
 // Коллекция данных
-/*
 var friends = [
     {
         name: 'Сэм',
@@ -50,7 +49,7 @@ var friends = [
         favoriteFruit: 'Картофель'
     }
 ];
-*/
+
 
 // Выполняем выборку и фильтрацию с помощью нашего конструктора
 var result = lib.query(
